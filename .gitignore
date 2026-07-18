@@ -1,0 +1,14 @@
+# SSH key pairs — never commit private keys
+*.pem
+*.key
+*.ppk
+
+# AWS credentials — never commit
+.aws/
+credentials
+config
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.swp
